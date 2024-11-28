@@ -1,0 +1,14 @@
+This is a review of "Newton's second law in an accelerating system" by Perle
+et al. I recommend MAJOR REVISION - RESUBMIT.
+
+Abstract - missing
+
+Introduction - The authors set up F=ma and describe testing it with two masses connected by a string over a pulley. F=ma is implied as one testable hypothesis with an alternative being ?. Alternative hypothesis is given later in the introdutction. 
+
+Methods and materials - A figure shows the experimental setup but it is a
+photo and hard to read; the diagrams are more clear. The experimetnal procedure is to allow the system to accelerate and time the time it takes to move a distance. SOurces for major equipment are not given so I am unsure how to replicate exactly what they did.
+
+Results (+ force calculations) This part is the hardest part to follow in this MS. The authors mix force of m1, theoretical acceleration, experimental sum of forces, and theoretical sum of forces and I'm not sure what htye are actually doing. The table gives times for 5 replicates of the test with one set combination of m1 and m2. What is most confusing is the accleration is variously listed as 0.5ish but also 1.09 m/s2. Which is it? Should these be the same?
+
+The authors claim 0.05 = 1.09 and so F=ma but that does not follow logically from their results.
+

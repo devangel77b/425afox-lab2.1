@@ -1,0 +1,19 @@
+This is a review of the resubmitted manuscript by Fox et al entitled "Newton's Second Law Lab Report". I recommend minor revisions.
+
+Title: The title sounds like a high school lab report. It should isntead give some idea of the questions addressed or findings.
+
+Throughout the authors use bulleted lists; it is preferable to just write in straight prose sentences without bullets.
+
+The setup photo needs labels.
+
+The procedure (methosd and materials) should NOT be given as cookbook steps. Write as prose, in past tense. Give enough details that a competent physicist could reproduce your results.
+
+Similarly, the calculations are given as bullet point equations with no explanation. It is unclear why some are labeled "experimental" versus some are labeled "theoretical".
+
+
+
+Results: In the results section Table 1 gives the data for acceleration. It appears that the team did 5 replicates but for only a single input force or choice of m2? Thus it is difficult to see how they tested their claims as they only have one data point.
+
+Individual contributions are given as bullets when they should just be a sentence in the acknowledgements. 
+
+No references are given.
