@@ -13,7 +13,7 @@ apredicted.ms2 <- function(m2,m1,mc){
 
 fig <- ggplot(data)+geom_point(aes(x=m1.kg,y=ameas.ms2))+
     ylim(0,2)+xlim(0,1)+
-    geom_function(fun=apredicted.ms2,args=list(m2=0.1,mc=0.5),color='blue')+
+    geom_function(fun=apredicted.ms2,args=list(m2=0.020,mc=0.0),color='blue')+
     xlab('$m_1$ (\\unit{\\kilo\\gram})')+
     ylab('$a$ (\\unit{\\meter\\per\\second\\squared})')+
     theme_bw(base_size=8)
@@ -33,6 +33,3 @@ results <- summarize(
 	)
 print(xtable(results),include.rownames=FALSE,file='table1raw.tex')
 
-# for fun try a nonlinear fit of the data to find g and mc? 
-foo <- nls(ameas.ms2~g*m2.kg/(m1.kg+m2.kg+mc),data=data,start=c(g=9.81,mc=0.5))
-summary(foo)
