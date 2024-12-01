@@ -1,5 +1,5 @@
 library(ggplot2)
-raw <- read.csv("avalur.csv",header=TRUE)
+raw <- read.csv("perle.csv",header=TRUE)
 
 library(dplyr)
 data <- mutate(
@@ -19,7 +19,7 @@ fig <- ggplot(data)+geom_point(aes(x=m1.kg,y=ameas.ms2))+
     theme_bw(base_size=8)
 
 library(svglite)
-svglite('fig5.svg',width=3,height=2,pointsize=8)
+svglite('fig2.svg',width=3,height=2,pointsize=8)
 print(fig)
 dev.off()
 
