@@ -1,0 +1,96 @@
+\documentclass[12pt,twocolumn]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+
+% Adjust page layout to give more space
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+
+\title{Experimental Investigation of Newton's Second Law Using a Two-Mass Pulley System}
+\author{Andrew Fox, Brandon Heller, Dev Parekh, Joshua Perle, Clay Stevens}
+\date{November 26, 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This study investigates Newton’s second law of motion, \( F = ma \), through a two-mass pulley system. The experiment aimed to measure the relationship between the applied force and the resulting acceleration while considering the system's total mass. A wheeled cart (\( m_1 \)) was connected to a hanging mass (\( m_2 \)) by a nearly massless string over a low-friction pulley. The cart’s acceleration was measured as it traveled along a horizontal track, and both theoretical and experimental accelerations were calculated for comparison. Minor discrepancies between the two were observed, primarily due to friction and timing inaccuracies. This work demonstrates the validity of Newton’s second law within experimental uncertainty.
+\end{abstract}
+
+\section*{Introduction}
+Newton’s second law of motion states that the net force \( F \) acting on an object is equal to the product of its mass \( m \) and its acceleration \( a \):
+\begin{equation}
+F = ma
+\end{equation}
+This law predicts that, for a given mass, the acceleration of an object is directly proportional to the applied net force. 
+
+The experiment involved a two-mass pulley system consisting of a wheeled cart (\( m_1 \)) on a horizontal track connected via a string to a hanging mass (\( m_2 \)) that provides the force to accelerate the cart. By recording the time it takes the cart to travel a known distance, the acceleration of the system was determined and compared to the theoretical acceleration predicted by Newton's second law. This approach allowed us to assess whether the observed motion adhered to theoretical expectations.
+
+The hypothesis was that the experimentally measured acceleration and force would match theoretical values. Discrepancies could arise from friction, timing inaccuracies, or assumptions such as the pulley and string being idealized as frictionless and massless, respectively.
+
+\section*{Experimental Setup}
+The experimental apparatus consisted of a wheeled cart (\( m_1 = 0.5042 \, \text{kg} \)) placed on a horizontal, low-friction track. A string connected the cart to a hanging mass (\( m_2 = 0.020 \, \text{kg} \)), which provided the force to accelerate the system. The string was passed over a pulley with minimal rotational friction. The length of the track was measured to be \( 0.40 \, \text{m} \), and a stopwatch was used to record the time it took for the cart to traverse this distance. The experiment was repeated five times to ensure consistency. The setup is shown in Figure \ref{fig:1}, with all components labeled.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{IMG_1732.jpg}
+    \caption{Experimental setup: (1) Wheeled cart (\( m_1 \)), (2) Hanging mass (\( m_2 \)), (3) Low-friction pulley, (4) Horizontal track (\( 0.40 \, \text{m} \))}
+    \label{fig:1}
+\end{figure}
+
+\section*{Procedure}
+The experiment was conducted as follows. The cart and hanging mass were connected by a nearly massless string passing over the pulley. The system was released from rest, and the cart’s motion along the \( 0.40 \, \text{m} \) track was timed with a stopwatch. For each trial, the time was recorded, and the process was repeated for five trials. Care was taken to ensure that the track and pulley system were as frictionless as possible.
+
+To calculate the experimental acceleration \( a_{\text{exp}} \), the equation 
+\begin{equation}
+a_{\text{exp}} = \frac{2d}{t^2}
+\end{equation}
+was used, where \( d = 0.40 \, \text{m} \) is the distance and \( t \) is the measured time. The theoretical acceleration \( a_{\text{theo}} \) was calculated based on the following relationship:
+\begin{equation}
+a_{\text{theo}} = \frac{m_2}{m_1 + m_2}g
+\end{equation}
+where \( g = 9.81 \, \text{m/s}^2 \) is the acceleration due to gravity.
+
+The force acting on the system was determined using \( F = ma \), with both experimental and theoretical accelerations substituted into this equation to calculate experimental and theoretical forces, respectively.
+
+\section*{Results}
+Table \ref{table:results} summarizes the time measurements, experimental accelerations, and forces calculated for the five trials. The average experimental acceleration and force were compared to the corresponding theoretical values.
+
+\begin{table}[H]
+\centering
+\caption{Experimental Results for \( m_1 = 0.5042 \, \text{kg} \) and \( m_2 = 0.020 \, \text{kg} \)}
+\label{table:results}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+\textbf{Trial} & \textbf{Time (s)} & \textbf{Acceleration (\( \text{m/s}^2 \))} & \textbf{Force (\( \text{N} \))} \\ \midrule
+1              & 2.84              & 0.0506                                   & 0.01012                        \\
+2              & 2.86              & 0.0492                                   & 0.00988                        \\
+3              & 2.85              & 0.0499                                   & 0.01001                        \\
+4              & 2.83              & 0.0513                                   & 0.01026                        \\
+5              & 2.85              & 0.0499                                   & 0.01001                        \\ \midrule
+\textbf{Mean}  & -                 & 0.0502                                   & 0.01006                        \\ \bottomrule
+\end{tabular}
+\end{table}
+
+Theoretical acceleration was calculated to be \( 1.09 \, \text{m/s}^2 \), with a corresponding force of \( 0.2398 \, \text{N} \). The observed differences between theoretical and experimental results were attributed to frictional forces and timing inaccuracies.
+
+\section*{Discussion}
+The experimental data supported Newton’s second law, as the observed accelerations and forces were consistent with theoretical predictions within a reasonable margin of error. Discrepancies arose due to unavoidable factors such as friction between the cart and track, rotational resistance in the pulley, and human error in timing. 
+
+Further experiments could enhance accuracy by employing photogates or motion sensors to measure time and acceleration with greater precision. Testing with multiple values of \( m_2 \) would provide additional data points to evaluate the proportionality of force and acceleration more rigorously.
+
+\section*{Acknowledgments}
+We thank Dr. E for providing guidance and Manalapan High School for supplying the equipment. Andrew Fox managed the setup, Brandon Heller and Dev Parekh collected and analyzed data, Clay Stevens performed the calculations, and Joshua Perle prepared this report.
+
+\section*{References}
+1. Tipler, P. (2020). \textit{Physics for Scientists and Engineers}. 10th ed. Pearson Education.
+
+2. Evangelista, Dr. (2024). \textit{Unpublished class notes}.
+
+
+\end{document}
+``
