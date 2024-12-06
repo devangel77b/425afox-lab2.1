@@ -1,4 +1,4 @@
-\documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}
+\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
 
 
 \usepackage{graphicx}
@@ -13,11 +13,29 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+% set PDF metadata
+\hypersetup{%
+pdftitle={Experimental investigation of Newton's second law using a two-mass pulley system},
+pdfauthor={Andrew Fox, Brandon Heller, Dev Parekh, Joshua Perle, and Clay Stevens},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{1}, 27--29 (2024)}
+\fancyhead[LO]{Perle et al.}
+\fancyhead[LE]{Experimental investigation of Newton's second law}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{1}, 27--29 (2024)}
+\fancyfoot[C]{\thepage}
+}
 
 
 
 
 \begin{document}
+\setcounter{page}{27}
 \title{Experimental investigation of Newton's second law using a two-mass pulley system}
 \author{Andrew Fox}
 \altaffiliation{\href{https://manalapan.frhsd.com/}{Manalapan High School}, Englishtown, NJ 07726 USA}
@@ -35,7 +53,7 @@ This study investigates Newton’s second law of motion, $F = ma$, through a two
 
 \keywords{keywords here}
 
-\maketitle
+\maketitle\thispagestyle{mytitlepage}
 
 
 
